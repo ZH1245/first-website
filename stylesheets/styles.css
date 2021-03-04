@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.navbar {
+  font-size: 13px;
+  height: 45px;
+  background-color: #fafafa;
+  overflow: hidden;
+  color: #a88b8b;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+#greeting,
+#ship {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#logo_head img {
+  width: fit-content;
+}
+#logo_head {
+  margin: 0 40px;
+  /* background-color: antiquewhite; */
+  overflow: hidden;
+  padding: 10px 10px;
+}
+#nav_container {
+  margin-left: 40px;
+  display: flex;
+}
+#logo {
+  width: 90%;
+  float: left;
+}
+#cart {
+  float: right;
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+#cart h4 {
+  padding-left: 10px;
+}
+#bar_container {
+  background-color: black;
+  color: white;
+  height: 50px;
+  overflow: hidden;
+  /* display: flexbox; */
+}
+#list {
+  /* font-family: "Source Sans Pro", sans-serif; */
+  margin: 10px 70px;
+  display: flex;
+  font-size: 18px;
+  overflow: hidden;
+  width: fit-content;
+}
+.menu_items {
+  padding: 0 30px;
+  /* overflow: hidden; */
+}
+/* #search input {
+  float: right;
+  height: 100px;
+} */
+
+.menu_items:hover {
+  background-color: #ddd;
+  color: black;
+  height: 100px;
+}
+.slider img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.main_items {
+  margin: 10px 50px;
+  text-align: center;
+}
+.table_images {
+  width: fit-content;
+  padding: 0 60px;
+  /* height: 40%; */
+}
+.bottom {
+  background-color: rgb(31, 27, 27);
+  color: white;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+}
+
+#about_us {
+  float: left;
+  max-width: 35%;
+  padding: 0 10px;
+}
+
+#contact_us {
+  max-width: 35%;
+  padding: 0 10px;
+  /* width: 35%; */
+}
+#store_location {
+  float: right;
+  max-width: 35%;
+  padding: 0 10px;
+}
+#info_creator {
+  background: rgb(49, 8, 8);
+  color: white;
+  padding-top: 0px;
+  height: 35px;
+}
